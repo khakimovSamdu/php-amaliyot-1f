@@ -24,27 +24,28 @@
 
                 <div class="input-box">
                     <span class="details">Email</span> 
-                    <input type="text" placeholder="Enter your email" required>
+                    <input type="email" placeholder="Enter your email" required>
                 </div>
 
                 <div class="input-box">
                     <span class="details">Phone Number</span> 
-                    <input type="text" placeholder="Enter your number" required>
+                    <input type="number" placeholder="Enter your number" required>
                 </div>
 
                 <div class="input-box">
                     <span class="details">Password</span> 
-                    <input type="text" placeholder="Enter your password" required>
+                    <input type="password" placeholder="Enter your password" required>
                 </div>
 
                 <div class="input-box">
                     <span class="details">Confirm Password</span> 
-                    <input type="text" placeholder="Confirm your password" required>
+                    <input type="password" placeholder="Confirm your password" required>
                 </div>
             </div>
             
             <div class="button">
-                <input type="submit" value="Register">
+                <input type="submit" name = "register" value ="Yuborish">
+                <button type="submit" name="register">Yuborish</button>
             </div>
         </form>
     </div>
