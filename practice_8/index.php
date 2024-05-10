@@ -46,7 +46,7 @@
         let t = <?=$q?>;
         setInterval(function (){
             $('#mesg').html(m+" : "+sec)
-        },  m = t/60, sec = t%60
+        },  3000
         )
     </script>
 </body>
